@@ -1,0 +1,165 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variables */
+
+:root {
+  /* Fuentes */
+  --font-body: sans-serif;
+  /* Colores */
+  --charcoal: #1e1e1e;
+  --softwhite: #fafaf8;
+  --warmbeige: #f3ede3;
+  --gentlegrey: #4b4b4b;
+  --dustybronze: #a68a64;
+}
+
+/* Styles */
+
+body {
+  background-color: var(--softwhite);
+  max-width: 100vw;
+}
+
+#nav {
+  background-color: var(--charcoal);
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  padding: 0 5vw 0 5vw;
+}
+
+.nav-logo {
+  height: 90%;
+}
+
+#hero {
+  position: relative;
+  height: 92vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-blur {
+  background: url(./img/hero.jpg), no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  filter: brightness(40%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.hero-container {
+  position: relative;
+  font-size: 48px;
+  font-family: var(--font-body);
+  color: var(--softwhite);
+}
+
+p {
+  font-size: 14px;
+  width: 50%;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  background-color: var(--dustybronze);
+  color: var(--softwhite);
+  border: none;
+}
+
+#detalles {
+  background-color: var(--warmbeige);
+  height: auto;
+  width: auto;
+  margin: 5vh 0 5vh 0;
+  padding: 10vh 5vw;
+  display: flex;
+  color: var(--gentlegrey);
+}
+
+.detalles-texto {
+  font-family: var(--font-body);
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.detalles-texto p {
+  font-size: 18px;
+  margin: 10px 0;
+  width: 90%;
+}
+
+#mapa {
+  display: flex;
+  justify-content: center;
+  padding: 10vh 5vw;
+}
+
+#formulario {
+  background-color: var(--warmbeige);
+  display: flex;
+  padding: 10vh 5vw;
+}
+
+#formulario iframe {
+  margin-left: 5vw;
+}
+
+#patrocinadores {
+  display: flex;
+  padding: 10vh 5vw;
+  flex-direction: column;
+  text-align: center;
+}
+
+#patrocinadores h2 {
+  font-family: var(--font-body);
+}
+
+.patrocinadores-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.patrocinadores-logo {
+  height: auto;
+  width: 15%;
+  margin: 10vh 0;
+}
+
+#footer {
+  width: 100%;
+  height: 15vh;
+  background-color: var(--charcoal);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10vh 5vw;
+}
+
+#footer h4 {
+  color: var(--softwhite);
+  font-family: var(--font-body);
+}
