@@ -232,24 +232,21 @@
     </section>
 
     <section id="patrocinadores">
-      <h2>Patrocinadores del Evento</h2>
-      <div class="patrocinadores-container">
-        <img
-          class="patrocinadores-logo"
-          src="./img/patrocinadores/starbucks.png"
-          alt=""
-        />
-        <img
-          class="patrocinadores-logo"
-          src="./img/patrocinadores/badger.png"
-          alt=""
-        />
-        <img
-          class="patrocinadores-logo"
-          src="./img/patrocinadores/cocacola.png"
-          alt=""
-        />
-      </div>
+      <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img class="patrocinadores-logo" src="./img/patrocinadores/cocacola.png" alt=""></div>
+    <div class="swiper-slide"><img class="patrocinadores-logo" src="./img/patrocinadores/badger.png" alt=""></div>
+    <div class="swiper-slide"><img class="patrocinadores-logo" src="./img/patrocinadores/starbucks.png" alt=""></div>
+  </div>
+  <!-- If we need pagination -->
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
     </section>
 
     <section id="footer">
@@ -279,7 +276,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
     <script src="./script.js"></script>
   </body>
 </html>

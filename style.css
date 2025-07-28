@@ -22,9 +22,6 @@
 /* Estilos */
 body {
   background-color: var(--softwhite);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 /* Sección Nav */
@@ -150,14 +147,37 @@ body {
   padding: 5vh 5vw;
   text-align: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+}
+
+.swiper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  --swiper-navigation-size: 30px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--dustybronze);
 }
 
 .patrocinadores-logo {
   width: 50%;
+  height: auto;
 }
-
 /* Sección Footer */
 
 #footer {
@@ -174,21 +194,20 @@ body {
   color: var(--softwhite);
 }
 
-.footer-social-links{
+.footer-social-links {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.footer-social-links a{
+.footer-social-links a {
   color: var(--softwhite);
   font-size: 24px;
   text-decoration: none;
 }
 
-.footer-social-links a:hover{
+.footer-social-links a:hover {
   color: var(--dustybronze);
-
 }
 
 .divider-line {
