@@ -37,7 +37,7 @@ h3 {
 /* Sección Nav */
 
 #nav {
-  width: 100vw;
+  width: 100%;
   height: 10vh;
   background-color: var(--charcoal);
   padding: 1vh 2vw;
@@ -51,7 +51,7 @@ h3 {
 /* Sección Hero */
 
 #hero {
-  width: 100vw;
+  width: 100%;
   height: 90vh;
   position: relative;
   display: flex;
@@ -100,7 +100,7 @@ h3 {
   flex-direction: column;
 }
 
-.detalles-imagen-foto {
+.detalles-imagen {
   width: 100%;
   margin: 0vh 0 3vh;
 }
@@ -108,11 +108,7 @@ h3 {
 /* Sección Mapa */
 
 #mapa {
-  padding: 5vh 5vw;
-}
-
-.mapa-overlay {
-  display: none;
+    padding: 5vh 5vw;
 }
 
 /* Sección Formulario */
@@ -254,4 +250,47 @@ h3 {
 
 .btn-flotante i {
   margin-right: 0.5vw;
+}
+
+/* Responsividad */
+
+@media (min-width: 500px) and (orientation: landscape) {
+
+  #nav {
+    height: 10vh;
+  }
+
+  #detalles {
+    display: block;
+  }
+
+  #detalles::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+  .detalles-imagen {
+    float: right;
+    width: 40%;
+    margin: 0;
+  }
+
+ #footer {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+ }
+
+ .footer-social-links a {
+  font-size: 24px;
+  margin: 0 10px;
+ }
+
+ .divider-line {
+  display: none;
+ }
+
+ 
 }
