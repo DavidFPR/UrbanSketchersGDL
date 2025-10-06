@@ -66,7 +66,7 @@ h3 {
 }
 
 .hero-blur {
-  background: url(./img/hero.jpg), no-repeat;
+  background: url(./img/Fondo_Web3.jpg) no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -212,7 +212,7 @@ h3 {
 
 .patrocinadores-logo {
   width: 50%;
-  height: auto;
+  height: 100%;
 }
 /* Sección Footer */
 
@@ -309,7 +309,7 @@ h3 {
   .detalles-imagen {
     float: right;
     width: 40%;
-    margin: 0;
+    margin: 50px;
   }
 
   #footer {
