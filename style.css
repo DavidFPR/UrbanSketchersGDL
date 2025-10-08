@@ -102,7 +102,7 @@ h3 {
 /* Sección Detalles */
 
 #detalles {
-  padding: 5vh 5vw;
+  padding: 8vh 8vw;
   background-color: var(--indigoblue);
 
   display: flex;
@@ -117,7 +117,7 @@ h3 {
 /* Sección Mapa */
 
 #mapa {
-  padding: 5vh 5vw;
+  padding: 8vh 8vw;
 }
 
 #mapa h2 {
@@ -130,7 +130,7 @@ h3 {
 
 #formulario {
   background-color: var(--indigoblue);
-  padding: 5vh 5vw;
+  padding: 8vh 8vw;
 }
 
 #formulario h2 {
@@ -140,12 +140,13 @@ h3 {
 
 /* Sección FAQ */
 #faq {
-  padding: 5vh 5vw;
+  padding: 8vh 8vw;
   text-align: center;
+  background-color: var(--indigoblue);
+  color: var(--purewhite);
 }
 
 #faq h2 {
-  color: var(--coalgrey);
   font-size: 32px;
 }
 
@@ -175,7 +176,7 @@ h3 {
 
 #patrocinadores {
   background-color: var(--purewhite);
-  padding: 5vh 5vw;
+  padding: 8vh 8vw;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -220,7 +221,7 @@ h3 {
   background-color: var(--indigoblue);
   color: var(--softwhite);
   text-align: center;
-  padding: 5vh 5vw;
+  padding: 8vh 8vw;
   display: flex;
   flex-direction: column;
 }
@@ -259,7 +260,7 @@ h3 {
 }
 
 /* Botón de Registro */
-.btn-flotante {
+/* .btn-flotante {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -287,7 +288,7 @@ h3 {
   background-color: #e58e00;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), 0 0 8px rgba(255, 255, 100, 0.4),
     0 0 15px rgba(255, 255, 150, 0.2);
-}
+} */
 
 /* Responsividad */
 
