@@ -114,6 +114,16 @@ h3 {
   margin: 0vh 0 3vh;
 }
 
+.detalles-texto {
+  display: flex;
+  flex-direction: column;
+}
+
+.detalles-patrocinador {
+  width: 50%;
+  align-self: center;
+}
+
 /* Sección Mapa */
 
 #mapa {
@@ -311,6 +321,11 @@ h3 {
     float: right;
     width: 40%;
     margin: 50px;
+  }
+
+  .detalles-patrocinador {
+    width: 40%;
+    align-self: center;
   }
 
   #footer {
